@@ -188,7 +188,15 @@ a {
 }
 /* x-small */
 @media (max-width: 640px) {
+  html {
+    font-size: 80%;
+  }
   .categories__item {
     min-width: 100px;
+    padding: 1rem 0.5rem;
+  }
+  .categories__item img {
+    width: 24px;
+    height: 24px;
   }
 }
